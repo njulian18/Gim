@@ -1,0 +1,23 @@
+.bg-top {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/gim.jpg");
+}
+.bg-top .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0.2;
+  background: #000;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
